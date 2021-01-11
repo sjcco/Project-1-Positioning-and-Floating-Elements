@@ -1,0 +1,19 @@
+.top-navbar {
+    overflow: hidden;
+    background-color: rgb(187, 187, 187);
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+  }
+
+  .bottom-navbar {
+    overflow: hidden;
+    background-color: rgb(187, 187, 187);
+   
+    
+    width: 100%; /* Full width */
+  }
+
+  .editorspick{
+      right: 0;
+  }
