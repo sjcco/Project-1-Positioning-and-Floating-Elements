@@ -8,12 +8,13 @@
     </head>
     <body>
         <div class="top-navbar">
-            <img src="assets/menu.png" alt="menu icon" width="30" height="30">
-            <img src="assets/search.png" alt="search icon" width="30" height="30">
-            <a href="#">SPACE &amp; COSMOS</a>
-            <img src="assets/Logo.png" alt="New York Times logo" width="310" height="40">
+            <img class="searchMenu" src="assets/menu.png" alt="menu icon" width="30" height="30">
+            <img class="searchMenu" src="assets/search.png" alt="search icon" width="30" height="30">
+            <a id="spaceCosmos" href="#">SPACE &amp; COSMOS</a>
+            <img id="toplogo" src="assets/Logo.png" alt="New York Times logo" width="310" height="40">
             <button type="button">SUBSCRIBE NOW</button>
-            <a>Account</a>
+            <button type="button">LOG IN</button>
+            
         </div>
         <div>
             <div class="title"></div>
@@ -54,7 +55,7 @@
                     On Monday, Dr. Guth’s starship came in. Radio astronomers reported that they had seen the beginning of the Big Bang, and that his hypothesis, known undramatically as inflation, looked right.
                 </p>
                 <p>
-                    Reaching back across 13.8 billion years to <a href="https://www.youtube.com/watch?v=ZJYc9YmKIO8&amp%3Bfeature=youtu.be"><span class="link">the first sliver of cosmic time</span></a> with telescopes at the South Pole, a team of astronomers led by John M. Kovac of the Harvard-Smithsonian Center for Astrophysics detected ripples in the fabric of space-time — so-called <a href=""><span class="link">gravitational waves</span></a> — the signature of a universe being wrenched violently apart when it was roughly a trillionth of a trillionth of a trillionth of a second old. They are the long-sought smoking-gun evidence of inflation, proof, Dr. Kovac and his colleagues say, that Dr. Guth was correct.
+                    Reaching back across 13.8 billion years to <a href="https://www.youtube.com/watch?v=ZJYc9YmKIO8"><span class="link">the first sliver of cosmic time</span></a> with telescopes at the South Pole, a team of astronomers led by John M. Kovac of the Harvard-Smithsonian Center for Astrophysics detected ripples in the fabric of space-time — so-called <a href=""><span class="link">gravitational waves</span></a> — the signature of a universe being wrenched violently apart when it was roughly a trillionth of a trillionth of a trillionth of a second old. They are the long-sought smoking-gun evidence of inflation, proof, Dr. Kovac and his colleagues say, that Dr. Guth was correct.
                 </p>
                 <p>
                     Inflation has been the workhorse of cosmology for 35 years, though many, including Dr. Guth, wondered whether it could ever be proved.
@@ -66,23 +67,32 @@
                     Confirming inflation would mean that the universe we see, extending 14 billion light-years in space with its hundreds of billions of galaxies, is only an infinitesimal patch in a larger cosmos whose extent, architecture and fate are unknowable. Moreover, beyond our own universe there might be an endless number of other universes bubbling into frothy eternity, like a pot of pasta water boiling over.
                 </p>
             </div>
-            <aside class="Editorspick">
+            <aside class="editorsPick">
                 <div>
                     <h2>Editors' Picks</h2>
-                    <article>
-                        <a href="">
-                            <h3>James Comey’s View of Justice — and How It Differs From Donald Trump’s</h3>
-                        </a>
+                    <article class="editorsPick-articles">
+                        <div class="editorsPick-boxes">                        
+                            <img src="assets/cris rock.jpg" alt="chris rock" height=100>
+                            <a href="">
+                                <h3>Chris Rock Re-edits a special, and the result is facinating</h3>
+                            </a>
+                        </div>
                     </article>
-                    <article>
-                        <a href="">
-                            <h3>Meena Harris, Building That Brand</h3>
-                        </a>
+                    <article class="editorsPick-articles">
+                        <div class="editorsPick-boxes">
+                            <img src="assets/people.jpg" alt="People" height=100>
+                            <a href="">
+                                <h3>'I Watched People Pass My Booth and Listened to Scraps of Conversation'</h3>
+                            </a>
+                        </div>
                     </article>
-                    <article>
-                        <a href="">
-                            <h3>For Pro Athlete Leading Social Justice Push, a Victory and Uncertainty</h3>
-                        </a>
+                    <article class="editorsPick-articles">
+                        <div class="editorsPick-boxes">
+                            <img src="assets/tommy lasorda.jpg" alt="Tommy lasorda" height=100>
+                            <a href="">
+                                <h3>Tommy Lasorda's Death Starts a Conversation About His son</h3>
+                            </a>
+                        </div>
                     </article>
                 </div>
             </aside>
@@ -312,7 +322,7 @@
                     “If you trace your cosmic roots,” said Abraham Loeb, a Harvard-Smithsonian astronomer who was not part of the team, “you wind up at inflation.”
                 </p>
                 
-                <div>
+                <div id="printing">
                     A version of this article appears in print on March 18, 2014, Section A, Page 1 of the New York edition with the headline: Space Ripples Reveal Big Bang’s Smoking Gun. 
                     <span>
                         <a href="">Order Reprints</a> | <a href="">Today’s Paper</a> | <a href="">Subscribe</a>

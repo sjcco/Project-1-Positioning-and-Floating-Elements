@@ -5,7 +5,43 @@
   top: 0;
   width: 100%;
   border-bottom: 1px solid #333;
-  justify-content: center;
+  justify-content: space-evenly;
+}
+
+.searchMenu{
+  padding-top: 5px;
+}
+
+#spaceCosmos{
+  padding-top: 10px;
+  margin: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  font-size: 20px;
+  text-decoration: none;
+  color: #333;
+}
+
+button{
+  border-radius: 3px;
+  background-color: rgb(86, 123, 149);
+  border: 1px solid rgb(50, 104, 145);
+  color: rgb(255, 255, 255);
+  font-size: 11px;
+  line-height: 11px;
+  font-weight: 700;
+  height: 30px;
+  margin-top: 5px;
+}
+
+#toplogo{
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+#printing{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 11px;
 }
 
 .author {
@@ -94,6 +130,23 @@ h4 {
   width: 100%;
   flex-direction: row;
   justify-content: center;
+}
+
+.editorsPick{
+  display: inline;
+  float: right;
+  width: 300px;
+  margin-left: 20px;
+  color: #333;
+}
+
+.editorsPick-boxes{
+  display:flex;
+}
+
+h3{
+  color: #333;
+  text-decoration: underline;
 }
 
 .pictures {
