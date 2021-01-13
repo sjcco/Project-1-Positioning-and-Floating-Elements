@@ -41,6 +41,7 @@ p {
   display: block;
   font-family: georgia, "times new roman", times, serif;
 }
+
 .article-body {
   margin: 50px auto;
   width: 35%;
@@ -78,12 +79,12 @@ figcaption {
 }
 
 h4 {
-  width: 80%;
+  width: 80vw;
   margin: 0px auto;
 }
 
 #pics-intro {
-  width: 80%;
+  width: 80vw;
   margin: 0px auto;
 }
 
@@ -100,7 +101,7 @@ h4 {
 }
 
 .pic-grid-element {
-  width: 20%;
+  width: 20vw;
   padding: 0px 10px 0px 10px;
 }
 
