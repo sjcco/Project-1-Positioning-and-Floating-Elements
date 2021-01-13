@@ -8,21 +8,21 @@
   justify-content: space-evenly;
 }
 
-.searchMenu{
+.searchMenu {
   padding-top: 5px;
 }
 
-#spaceCosmos{
+#spaceCosmos {
   padding-top: 10px;
   margin: 0;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   font-weight: bolder;
   font-size: 20px;
   text-decoration: none;
   color: #333;
 }
 
-button{
+button {
   border-radius: 3px;
   background-color: rgb(86, 123, 149);
   border: 1px solid rgb(50, 104, 145);
@@ -34,13 +34,13 @@ button{
   margin-top: 5px;
 }
 
-#toplogo{
+#toplogo {
   padding-left: 200px;
   padding-right: 200px;
 }
 
-#printing{
-  font-family: Georgia, 'Times New Roman', Times, serif;
+#printing {
+  font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 11px;
 }
 
@@ -132,7 +132,7 @@ h4 {
   justify-content: center;
 }
 
-.editorsPick{
+.editorsPick {
   display: inline;
   float: right;
   width: 300px;
@@ -140,11 +140,11 @@ h4 {
   color: #333;
 }
 
-.editorsPick-boxes{
-  display:flex;
+.editorsPick-boxes {
+  display: flex;
 }
 
-h3{
+h3 {
   color: #333;
   text-decoration: underline;
 }
