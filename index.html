@@ -1,6 +1,8 @@
  <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="styles.css">
         <title>Space Ripples Reveal Big Bang’s Smoking Gun</title>
     </head>
@@ -14,17 +16,19 @@
             <a>Account</a>
         </div>
         <div>
-            <h1>Ripples Reveal Big Bang’s Smoking Gun</h1>
-            <figure>
-                <img src="assets/18cosmos-superJumbo.webp" alt="Picture of Alan Guth and a telescope in the background">                
-                <figcaption >
-                    <span class="fig-caption">Alan Guth was one of the first physicists to hypothesize the existence of inflation, which explains how the universe expanded so uniformly and so quickly in the instant after the Big Bang 13.8 billion years ago.</span>
-                    <span class="credits">Rick Friedman for The New York Times</span>
-                </figcaption>
-            </figure>
+            <div class="title"></div>
+                <h1>Ripples Reveal Big Bang’s Smoking Gun</h1>
+                <figure>
+                    <img class="fig-img" src="assets/cosmos.jpg" alt="Picture of Alan Guth and a telescope in the background">                
+                    <figcaption >
+                        <span class="fig-caption">Alan Guth was one of the first physicists to hypothesize the existence of inflation, which explains how the universe expanded so uniformly and so quickly in the instant after the Big Bang 13.8 billion years ago.</span>
+                        <span class="credits">Rick Friedman for The New York Times</span>
+                    </figcaption>
+                </figure>
+            </div>
             
-            <div>
-                <span class="by-author">By</span>
+            <div class="author">
+                <span >By</span>
 
                 <a href="https://www.nytimes.com/by/dennis-overbye">
                 <span class="author">Dennis Overbye</span>
@@ -62,7 +66,7 @@
                     Confirming inflation would mean that the universe we see, extending 14 billion light-years in space with its hundreds of billions of galaxies, is only an infinitesimal patch in a larger cosmos whose extent, architecture and fate are unknowable. Moreover, beyond our own universe there might be an endless number of other universes bubbling into frothy eternity, like a pot of pasta water boiling over.
                 </p>
             </div>
-            <aside>
+            <aside class="Editorspick">
                 <div>
                     <h2>Editors' Picks</h2>
                     <article>
@@ -82,7 +86,7 @@
                     </article>
                 </div>
             </aside>
-            <div>
+            <div class="article-body">
                 <h4>
                     ‘As Big as It Gets’
                 </h4>
@@ -107,54 +111,54 @@
                     <h4>
                         The Theory of inflation
                     </h4>
-                    <p>Astronomers have found evidence to support the theory of inflation, which explains how the universe expanded so uniformly and so quickly in the instant after the Big Bang 13.8 billion years ago.</p>
-                    <div class="Pics-grid">
-                        <img src="assets/1.png" class="pictures">
-                        <img src="assets/2.png" class="pictures">
-                        <img src="assets/3.png" class="pictures">
-                        <img src="assets/4.png" class="pictures">
+                    <p id="pics-intro">Astronomers have found evidence to support the theory of inflation, which explains how the universe expanded so uniformly and so quickly in the instant after the Big Bang 13.8 billion years ago.</p>
+                    <div class="pics-grid">
+                        <div class="pic-grid-element"><img src="assets/1.png" class="pictures"></div>
+                        <div class="pic-grid-element"><img src="assets/2.png" class="pictures"></div>
+                        <div class="pic-grid-element"><img src="assets/3.png" class="pictures"></div>
+                        <div class="pic-grid-element"><img src="assets/4.png" class="pictures"></div>
                     
-                        <div class="pic-text">
+                        <div class="pic-grid-element">
                            <p>
                               <span class="pic-textBold">THE UNIVERSE</span>is just under 14 billion years old. From our position in the Milky Way galaxy, we can observe a sphere that is now about 92 billion light-years across. But there's a mystery. Wherever we look, the universe has an even temperature.
                           </p>
                         </div>
-                        <div class="pic-text">
+                        <div class="pic-grid-element">
                             <p>
                                 <span class="pic-textBold">NOT ENOUGH TIME</span> The universe is not old enough for light to have traveled the vast distance from one side of the universe to the other, and there has not been enough time for scattered patches of hot and cold to mix into an even temperature.
                             </p>
                         </div>
-                        <div class="pic-text">
+                        <div class="pic-grid-element">
                             <p>
                                 <span class="pic-textBold">DISTANT COFFEE</span> At a smaller scale, imagine using a telescope to look a mile in one direction. You see a coffee cup, and from the amount of steam, you can estimate its temperature and how much it has cooled.
                             </p>
                         </div>
-                        <div class="pic-text">
+                        <div class="pic-grid-element">
                             <p>
                                 <span class="pic-textBold">COFFEE EVERYWHERE</span> Now turn around and look a mile in the other direction. You see a similar coffee cup, at exactly the same temperature. Coincidence? Maybe. But if you see a similar cup in every direction, you might want to look for another explanation.
                             </p>
                         </div>
-                        <img src="assets/5.png" class="pictures">
-                        <img src="assets/6.png" class="pictures">
-                        <img src="assets/7.png" class="pictures">
-                        <img src="assets/8.png" class="pictures">
+                        <div class="pic-grid-element"><img src="assets/5.png" class="pictures"></div>
+                        <div class="pic-grid-element"><img src="assets/6.png" class="pictures"></div>
+                        <div class="pic-grid-element"><img src="assets/7.png" class="pictures"></div>
+                        <div class="pic-grid-element"><img src="assets/8.png" class="pictures"></div>
 
-                        <div class="pic-text">
+                        <div class="pic-grid-element">
                             <p>
                                 <span class="pic-textBold">STILL NOT ENOUGH TIME</span> There has not been enough time to carry coffee cups from place to place before they get cold. But if all the coffee cups were somehow filled from a single coffee pot, all at the same time, that might explain their even temperature.
                             </p>
                         </div>
-                        <div class="pic-text">
+                        <div class="pic-grid-element">
                             <p>
                                 <span class="pic-textBold">INFLATION</span> solves this problem. The theory proposes that, less than a trillionth of a second after the Big Bang, the universe expanded faster than the speed of light. Tiny ripples in the violently expanding energy field eventually grew into the large-scale structures of the universe.
                             </p>
                         </div>
-                        <div class="pic-text">
+                        <div class="pic-grid-element">
                             <p>
                                 <span class="pic-textBold">FLUCTUATION</span> Astronomers have now detected evidence of these ancient fluctuations in swirls of polarized light in the cosmic background radiation, which is energy left over from the early universe. These are gravitational waves predicted by Einstein.
                             </p>
                         </div>
-                        <div class="pic-text">
+                        <div class="pic-grid-element">
                             <p>
                                 <span class="pic-textBold">EXPANSION</span> Returning to our coffee, imagine a single, central pot expanding faster than light and cooling to an even temperature as it expands. That is something like inflation. And the structure of the universe mirrors the froth and foam of the original pot.
                             </p>
@@ -164,7 +168,7 @@
 
                 </div>
 
-            <div>
+            <div class="article-body">
                 <p>
                     Dr. Kovac said the chance that the results were a fluke was only one in 10 million.
                 </p>
@@ -183,6 +187,8 @@
                 <p>
                 Andrei Linde of Stanford, a prolific theorist who first described the most popular variant of inflation, known as chaotic inflation, in 1983, was about to go on vacation in the Caribbean last week when Chao-Lin Kuo, a Stanford colleague and a member of Dr. Kovac’s team, <a href="https://www.youtube.com/watch?v=ZlfIVEy_YOA"><span class="link"></span>knocked on his door with a bottle of Champagne</a> to tell him the news.
                 </p>
+            </div>
+            
                 <figure>
                     <iframe width="100%" height="400" src="https://www.youtube.com/embed/ZlfIVEy_YOA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     <figcaption>
@@ -190,6 +196,9 @@
                       <span class="credits">Video by Stanford University</span>
                     </figcaption>
                   </figure>
+
+            <div class="article-body">
+
                 <p>
                     Confused, Dr. Linde called out to his wife, asking if she had ordered anything.
                 </p>
@@ -234,13 +243,17 @@
                     “The South Pole is the closest you can get to space and still be on the ground,” Dr. Kovac said. He has been there 23 times, he said, wintering over in 1994. “I’ve been hooked ever since,” he said.
                     Image
                 </p>
-                <figure>
-                    <img src="assets/18cosmos-2-jumbo.webp">
-                    <figcaption>
-                        <span class="fig-caption">The Bicep2 telescope, in the foreground, was used to detect the faint spiraling gravity patterns — the signature of a universe being wrenched violently apart at its birth.</span>
-                        <span class="credits">Steffen Richter/Associated Press</span>
-                    </figcaption>
-                </figure>
+            </div>
+            
+            <figure>
+                <img class="fig-img" src="assets/18cosmos-2-jumbo.webp">
+                <figcaption>
+                    <span class="fig-caption">The Bicep2 telescope, in the foreground, was used to detect the faint spiraling gravity patterns — the signature of a universe being wrenched violently apart at its birth.</span>
+                    <span class="credits">Steffen Richter/Associated Press</span>
+                </figcaption>
+            </figure>
+
+            <div class="article-body">
                 <p>
                     In 2002, he was part of a team that discovered that the microwave radiation was polarized, meaning the light waves had a slight preference to vibrate in one direction rather than another.
                 </p>
@@ -317,419 +330,427 @@
                 
                 
             </div>
-            <nav class="main-navbar">
+            
+            <div class=mainNav-container>
                 <div>
-                    <img src="assets/Logo.png">
+                    <img src="assets/Logo.png" height="30px">
                 </div>
-                <div>                                  
-                    <section>
+                <nav class="main-navbar">                
+                                                 
+                    <section class="nav-section">
                         <h3>NEWS</h3>
-                        <ul>
+                        <ul class="mainNav-columns">
                             <li>
-                                <a href="">
+                                <a class="nav-links" href="">
                                     Home Page
                                 </a>
                             </li>
                             <li>
-                                <a href="">
+                                <a class="nav-links" href="">
                                     World
                                 </a>
                             </li>
                             <li>
-                                <a href="">
+                                <a class="nav-links" href="">
                                     Coronavirus
                                 </a>
                             </li>
                             <li>
-                                <a href="">
+                                <a class="nav-links" href="">
                                     U.S
                                 </a>
                             </li>
                             <li>
-                                <a href="">
+                                <a class="nav-links" href="">
                                     Politics
                                 </a>
                             </li>
                             <li>
-                                <a href="">
+                                <a class="nav-links" href="">
                                     Election results
                                 </a>
                             </li>
                             <li>
-                                <a href="">
+                                <a class="nav-links" href="">
                                     New York
                                 </a>
                             </li>
                             <li>
-                                <a href="">
+                                <a class="nav-links" href="">
                                     Bussiness
                                 </a>
                             </li>
                             <li>
-                                <a href="">
+                                <a class="nav-links" href="">
                                     Tech
                                 </a>
                             </li>
                             <li>
-                                <a href="">
+                                <a class="nav-links" href="">
                                     Science   
                                 </a>
                             </li>
                             <li>
-                                <a href="">
+                                <a class="nav-links" href="">
                                     Sports
                                 </a>
                             </li>
                             <li>
-                                <a href="">
+                                <a class="nav-links" href="">
                                     Obituaries
                                 </a>
                             </li>
                             <li>
-                                <a href="">
+                                <a class="nav-links" href="">
                                     Today’s Paper   
                                 </a>
                             </li>
                             <li>
-                                <a href="">
+                                <a class="nav-links" href="">
                                     Corrections
                                 </a>
                             </li>
                             
                         </ul>
                     </section>                   
-                    <section>
+                    <section class="nav-section">
                         <h3>OPINION</h3>
-                        <ul>
+                        <ul class="mainNav-columns">
                             <li>
-                                <a href="">
+                                <a class="nav-links" href="">
                                     Today’s Opinion
                                 </a>
                             </li>
                             <li>
-                                <a href="">
+                                <a class="nav-links" href="">
                                     Op-Ed Columnists
                                 </a>
                             </li>
                             <li>
-                                <a href="">
+                                <a class="nav-links" href="">
                                     Editorials
                                 </a>
                             </li>
                             <li>
-                                <a href="">
+                                <a class="nav-links" href="">
                                     Op-Ed Contributors
                                 </a>
                             </li>
                             <li>
-                                <a href="">
+                                <a class="nav-links" href="">
                                     Letters
                                 </a>
                             </li>
                             <li>
-                                <a href="">
+                                <a class="nav-links" href="">
                                     Sunday Review
                                 </a>
                             </li>
                             <li>
-                                <a href="">
+                                <a class="nav-links" href="">
                                     Video: Opinion
                                 </a>
                             </li>
                         </ul>
                     </section>
-                    <section>
+                    <section class="nav-section">
                         <h3>Arts</h3>
-                        <ul>
+                        <ul class="mainNav-columns">
                             <li>
-                                <a href="">
+                                <a class="nav-links" href="">
                                     Today’s Arts
                                 </a>
                             </li>
                             <li>
-                                <a href="">
+                                <a class="nav-links" href="">
                                     Art & Design
                                 </a>
                             </li>
                             <li>
-                                <a href="">
+                                <a class="nav-links" href="">
                                     Books
                                 </a>
                             </li>
                             <li>
-                                <a href="">
+                                <a class="nav-links" href="">
                                     Dance
                                 </a>
                             </li>
                             <li>
-                                <a href="">
+                                <a class="nav-links" href="">
                                     Movies
                                 </a>
                             </li>
                             <li>
-                                <a href="">
+                                <a class="nav-links" href="">
                                     Music
                                 </a>
                             </li>
                             <li>
-                                <a href="">
+                                <a class="nav-links" href="">
                                     Pop Culture
                                 </a>
                             </li>
                             <li>
-                                <a href="">
+                                <a class="nav-links" href="">
                                     Television
                                 </a>
                             </li>
                             <li>
-                                <a href="">
+                                <a class="nav-links" href="">
                                     Theater
                                 </a>
                             </li>
                             <li>
-                                <a href="">
+                                <a class="nav-links" href="">
                                     Video: Arts
                                 </a>
                             </li>
                         </ul>
                     </section>
-                    <section>
+                    <section class="nav-section">
                         <h3>LIVING</h3>
-                        <ul>
+                        <ul class="mainNav-columns">
                             <li>
-                                <a href="">
+                                <a class="nav-links" href="">
                                     At Home
                                 </a>
                             </li>
                             <li>
-                                <a href="">
+                                <a class="nav-links" href="">
                                     Automobiles
                                 </a>
                             </li>
                             <li>
-                                <a href="">
+                                <a class="nav-links" href="">
                                     Games
                                 </a>
                             </li>
                             <li>
-                                <a href="">
+                                <a class="nav-links" href="">
                                     Education
                                 </a>
                             </li>
                             <li>
-                                <a href="">
+                                <a class="nav-links" href="">
                                     Food
                                 </a>
                             </li>
                             <li>
-                                <a href="">
+                                <a class="nav-links" href="">
                                     Health
                                 </a>
                             </li>
                             <li>
-                                <a href="">
+                                <a class="nav-links" href="">
                                     Jobs
                                 </a>
                             </li>
                             <li>
-                                <a href="">
+                                <a class="nav-links" href="">
                                     Love
                                 </a>
                             </li>
                             <li>
-                                <a href="">
+                                <a class="nav-links" href="">
                                     Magazine
                                 </a>
                             </li>
                             <li>
-                                <a href="">
+                                <a class="nav-links" href="">
                                     Parenting
                                 </a>
                             </li>
                             <li>
-                                <a href="">
+                                <a class="nav-links" href="">
                                     Real Estate
                                 </a>
                             </li>
                             <li>
-                                <a href="">
+                                <a class="nav-links" href="">
                                     Recipes
                                 </a>
                             </li>
                             <li>
-                                <a href="">
+                                <a class="nav-links" href="">
                                     Style
                                 </a>
                             </li>
                             <li>
-                                <a href="">
+                                <a class="nav-links" href="">
                                     T Magazine
                                 </a>
                             </li>
                             <li>
-                                <a href="">
+                                <a class="nav-links" href="">
                                     Travel
                                 </a>
                             </li>
                         </ul>
                     </section>
-                    <section>
+                    <section class="nav-section">
                         <h3>MORE</h3>
-                        <ul>
+                        <ul class="mainNav-columns">
                             <li>
-                                <a href="">
+                                <a class="nav-links" href="">
                                     Reader Center
                                 </a>
                             </li>
                             <li>
-                                <a href="">
+                                <a class="nav-links" href="">
                                     Wirecutter
                                 </a>
                             </li>
                             <li>
-                                <a href="">
+                                <a class="nav-links" href="">
                                     Live Events
                                 </a>
                             </li>
                             <li>
-                                <a href="">
+                                <a class="nav-links" href="">
                                     The Learning Network
                                 </a>
                             </li>
                             <li>
-                                <a href="">
+                                <a class="nav-links" href="">
                                     Tools & Services
                                 </a>
                             </li>
                             <li>
-                                <a href="">
+                                <a class="nav-links" href="">
                                     Multimedia
                                 </a>
                             </li>
                             <li>
-                                <a href="">
+                                <a class="nav-links" href="">
                                     Photography
                                 </a>
                             </li>
                             <li>
-                                <a href="">
+                                <a class="nav-links" href="">
                                     Video
                                 </a>
                             </li>
                             <li>
-                                <a href="">
+                                <a class="nav-links" href="">
                                     Newsletters
                                 </a>
                             </li>
                             <li>
-                                <a href="">
+                                <a class="nav-links" href="">
                                     TimesMachine
                                 </a>
                             </li>
                             <li>
-                                <a href="">
+                                <a class="nav-links" href="">
                                     NYT Store
                                 </a>
                             </li>
                             <li>
-                                <a href="">
+                                <a class="nav-links" href="">
                                     Times Journeys
                                 </a>
                             </li>
                             <li>
-                                <a href="">
+                                <a class="nav-links" href="">
                                     Manage My Account
                                 </a>
                             </li>
                             
                         </ul>
                     </section>
-                    <section>
+                    <section class="nav-section" id="subscribe-column">
                         <h3>SUBSCRIBE</h3>
-                        <ul>
+                        <ul class="mainNav-columns">
                             <li>
-                                <a href="">
+                                <a class="nav-links" id="navlink-bold" href="">
+                                    Home Delivery
+                                </a>
+                            </li>
+                            <li>
+                                <a class="nav-links" id="navlink-bold" href="">
                                     Digital Subscriptions
                                 </a>
                             </li>
                             <li>
-                                <a href="">
+                                <a class="nav-links" id="navlink-bold" href="">
                                     Games
                                 </a>
                             </li>
                             <li>
-                                <a href="">
+                                <a class="nav-links" id="navlink-bold" href="">
                                     Cooking
                                 </a>
                             </li>
                             <li>
-                                <a href="">
+                                <a class="nav-links" id="navlink-little" href="">
                                     Email Newsletters
                                 </a>
                             </li>
                             <li>
-                                <a href="">
+                                <a class="nav-links" id="navlink-little" href="">
                                     Corporate Subscriptions
                                 </a>
                             </li>
                             <li>
-                                <a href="">
+                                <a class="nav-links" id="navlink-little" href="">
                                     Education Rate
                                 </a>
                             </li>
                         </ul>
-                        <ul>
+                        <ul class="mainNav-columns" id="lang-country-apps">
                             <li>
-                                <a href="">
+                                <a class="nav-links" id="navlink-little" href="">
                                     Mobile Applications
                                 </a>
                             </li>
                             <li>
-                                <a href="">
+                                <a class="nav-links" id="navlink-little" href="">
                                     Replica Ediction
                                 </a>
                             </li>
                             <li>
-                                <a href="">
+                                <a class="nav-links" id="navlink-little" href="">
                                     International
                                 </a>
                             </li>
                             <li>
-                                <a href="">
+                                <a class="nav-links" id="navlink-little" href="">
                                     Canada
                                 </a>
                             </li>
                             <li>
-                                <a href="">
+                                <a class="nav-links" id="navlink-little" href="">
                                     Español
                                 </a>
                             </li>
                             <li>
-                                <a href="">
+                                <a class="nav-links" id="navlink-little" href="">
                                     中文网
                                 </a>
                             </li>
                         </ul>
                     </section>
-                </div>
-            </nav>
+                
+                 </nav>
+            </div>
 
         <footer>
             <div class="bottom-navbar">
-                <a href="">© 2021 The New York Times Company</a>
-                <a href="">NYTCo</a>
-                <a href="">Contact Us</a>
-                <a href="">Contact Us</a>
-                <a href="">Work with us</a>
-                <a href="">Advertise</a>
-                <a href="">T Brand Studio</a>
-                <a href="">Your Ad Choices</a>
-                <a href="">Privacy Policy</a>
-                <a href="">Terms of Service</a>
-                <a href="">Terms of Sale</a>
-                <a href="">Site Map</a>
-                <a href="">Help</a>
-                <a href="">Subscriptions</a>
+                <a class="navlink-little nav-links" href="">© 2021 The New York Times Company</a>
+                <a class="navlink-little nav-links" href="">NYTCo</a>
+                <a class="navlink-little nav-links" href="">Contact Us</a>
+                <a class="navlink-little nav-links" href="">Contact Us</a>
+                <a class="navlink-little nav-links" href="">Work with us</a>
+                <a class="navlink-little nav-links" href="">Advertise</a>
+                <a class="navlink-little nav-links" href="">T Brand Studio</a>
+                <a class="navlink-little nav-links" href="">Your Ad Choices</a>
+                <a class="navlink-little nav-links" href="">Privacy Policy</a>
+                <a class="navlink-little nav-links" href="">Terms of Service</a>
+                <a class="navlink-little nav-links" href="">Terms of Sale</a>
+                <a class="navlink-little nav-links" href="">Site Map</a>
+                <a class="navlink-little nav-links" href="">Help</a>
+                <a class="navlink-little nav-links" href="">Subscriptions</a>
 
 
             </div>
