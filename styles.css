@@ -80,12 +80,12 @@ figcaption {
 
 h4 {
   width: 80vw;
-  margin: 0px auto;
+  margin: 0 auto;
 }
 
 #pics-intro {
   width: 80vw;
-  margin: 0px auto;
+  margin: 0 auto;
 }
 
 .pics-grid {
@@ -102,7 +102,7 @@ h4 {
 
 .pic-grid-element {
   width: 20vw;
-  padding: 0px 10px 0px 10px;
+  padding: 0 10px 0 10px;
 }
 
 .mainNav-container {
@@ -124,8 +124,8 @@ h4 {
 
 .mainNav-columns {
   list-style-type: none;
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
 }
 
 .nav-links {
