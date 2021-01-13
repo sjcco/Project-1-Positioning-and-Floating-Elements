@@ -149,12 +149,18 @@ h4 {
   border-top: 2px solid #e2e2e2;
 }
 
-#navlink-bold {
+.navlink-bold {
+  text-decoration: none;
+  font-family: helvetica, arial, sans-serif;
   font-weight: bolder;
   font-size: 15px;
+  color: #333;
 }
 
-#navlink-little {
+.navlink-little {
+  text-decoration: none;
+  font-family: helvetica, arial, sans-serif;
+  color: rgb(51, 51, 51);
   font-size: 11px;
 }
 
