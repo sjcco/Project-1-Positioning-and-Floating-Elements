@@ -59,6 +59,10 @@ figure{
   margin: 50px auto;
 }
 
+iframe{
+  width: 700px;
+}
+
 
 
 
@@ -159,7 +163,6 @@ h4{
 #navlink-little{
   font-size: 11px;
 }
-
 
 .bottom-navbar {
   display: flex;
