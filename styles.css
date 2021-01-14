@@ -10,9 +10,17 @@
 
 .searchMenu {
   padding-top: 5px;
+  width: 8%;
+  box-sizing: border-box;
 }
 
-#spaceCosmos {
+.menus{
+  display: flex;
+  width: 15%;
+  justify-content:space-between;
+}
+
+.spaceCosmos {
   padding-top: 10px;
   margin: 0;
   font-family: Georgia, "Times New Roman", Times, serif;
@@ -34,7 +42,7 @@ button {
   margin-top: 5px;
 }
 
-#toplogo {
+.toplogo {
   padding-left: 200px;
   padding-right: 200px;
 }

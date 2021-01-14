@@ -4,9 +4,9 @@
 
 > This assignment consists of making a clone of a New York Times article page.
 
-![screenshot](./app_screenshot.png)
+![screenshot](./assets/app_screenshot.png)
 
-Additional description about the project and its features.
+Article page of NYT
 
 ## Built With
 
