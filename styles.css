@@ -3,7 +3,7 @@
   background-color: rgb(255, 255, 255);
   position: fixed;
   top: 0;
-  width: 100%;
+  width: 100vw;
   border-bottom: 1px solid #333;
   justify-content: space-evenly;
   z-index: 10;
@@ -64,12 +64,12 @@ button {
 .title {
   margin-right: auto;
   margin-left: auto;
-  width: 100%;
+  width: 100vw;
   max-width: 1000px;
 }
 
 h1 {
-  width: 50%;
+  width: 50vw;
   margin-top: 100px;
   margin-left: auto;
   margin-right: auto;
@@ -99,7 +99,7 @@ p {
 
 figure {
   max-width: 1000px;
-  width: 100%;
+  width: 100vw;
   margin: 50px auto;
 }
 
@@ -243,7 +243,7 @@ h3 {
 
 .bottom-navbar {
   display: flex;
-  width: 55%;
+  width: 55vw;
   flex-direction: row;
   border-top: 2px solid #e2e2e2;
   justify-content: space-between;
