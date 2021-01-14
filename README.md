@@ -25,6 +25,7 @@ Article page of NYT
 👤 **Author1**
 
 - GitHub: [@sjcco](https://github.com/sjcco)
+- Twitter:[@CarlosCamposO](https://twitter.com/CarlosCamposO)
 
 
 
