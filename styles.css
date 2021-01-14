@@ -104,7 +104,7 @@ figure {
 }
 
 iframe {
-  width: 1000px;  
+  width: 1000px;
 }
 
 figcaption {
@@ -133,12 +133,12 @@ h4 {
   margin: 0 auto;
 }
 
-.theoryOfInflation{
+.theoryOfInflation {
   max-width: 1000px;
   margin: 50px auto;
 }
 
-.theory-img{
+.theory-img {
   display: block;
   position: absolute;
   width: 100%;
@@ -152,7 +152,7 @@ h4 {
   grid-template-rows: repeat(2, 2fr);
   grid-template-columns: repeat(4, 5fr);
   column-gap: 8px;
-  width: 100%;  
+  width: 100%;
   height: auto;
 }
 
@@ -162,7 +162,6 @@ h4 {
   position: relative;
   top: 140px;
   margin-bottom: 140px;
-
 }
 
 .editorsPick {
