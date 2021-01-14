@@ -6,6 +6,7 @@
   width: 100%;
   border-bottom: 1px solid #333;
   justify-content: space-evenly;
+  z-index: 10;
 }
 
 .searchMenu {
@@ -103,7 +104,7 @@ figure {
 }
 
 iframe {
-  width: 700px;
+  width: 1000px;  
 }
 
 figcaption {
@@ -132,12 +133,36 @@ h4 {
   margin: 0 auto;
 }
 
-.pics-grid {
-  display: flex;
-  flex-wrap: wrap;
+.theoryOfInflation{
+  max-width: 1000px;
+  margin: 50px auto;
+}
+
+.theory-img{
+  display: block;
+  position: absolute;
   width: 100%;
-  flex-direction: row;
-  justify-content: center;
+  height: auto;
+  z-index: 0;
+}
+
+.pics-grid {
+  position: relative;
+  display: grid;
+  grid-template-rows: repeat(2, 2fr);
+  grid-template-columns: repeat(4, 5fr);
+  column-gap: 8px;
+  width: 100%;  
+  height: auto;
+}
+
+.pic-grid-element {
+  font-size: 14px;
+  z-index: 1;
+  position: relative;
+  top: 140px;
+  margin-bottom: 140px;
+
 }
 
 .editorsPick {
@@ -155,15 +180,6 @@ h4 {
 h3 {
   color: #333;
   text-decoration: underline;
-}
-
-.pictures {
-  height: 200px;
-}
-
-.pic-grid-element {
-  width: 20vw;
-  padding: 0 10px 0 10px;
 }
 
 .mainNav-container {
