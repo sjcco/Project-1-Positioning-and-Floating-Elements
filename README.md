@@ -14,7 +14,7 @@ Article page of NYT
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://sjcco.github.io/Project-1-Positioning-and-Floating-Elements/)
 
 
 
