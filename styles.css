@@ -17,10 +17,10 @@
 .menus{
   display: flex;
   width: 15%;
-  justify-content:space-between;
+  justify-content: space-between;
 }
 
-.spaceCosmos {
+.spaceCosmos{
   padding-top: 10px;
   margin: 0;
   font-family: Georgia, "Times New Roman", Times, serif;
@@ -47,7 +47,7 @@ button {
   padding-right: 200px;
 }
 
-#printing {
+.printing {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 11px;
 }
